@@ -1,0 +1,229 @@
+/*!
+ * Start Bootstrap - Half Slider (https://startbootstrap.com/template-overviews/half-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-half-slider/blob/master/LICENSE)
+ */
+
+body{
+    background-color: #353b48;
+    color: black;
+}
+
+nav {
+    background-color: #40739e;
+}
+
+footer {
+    background-color: #40739e;
+}
+
+/*Start Games Page*/
+
+.carousel{
+    top: -24px;
+}
+
+.carousel-item {
+  height: 80vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+#genre-selector{
+    float:left;
+    width:85%;
+
+}
+
+#genre-selector option{
+    padding:15px;
+}
+
+.sort{
+    float:right;
+    cursor: pointer;
+    margin:8px 35px 0px 0px;
+}
+
+.games{
+    margin-bottom:5px;
+}
+
+.card-title{
+    text-align: center;
+
+}
+
+.game{
+    transition: transform .2;
+    margin-top: 25px;
+}
+
+.game-card{
+    transition: transform .2;
+}
+
+.game-card:hover{
+    border-bottom: 1px solid #d1d8e0;
+	box-shadow: 0 1px 5px #d1d8e0;
+    transform: scale(1.04);
+}
+
+.game a{
+    text-decoration: none;
+}
+
+
+.pagination{
+    position: relative;
+    /*border:1px solid lightgrey;*/
+    margin-bottom:40px;
+    background-color: #fff!important;
+    position: relative;
+    left:30px;
+    border:5px ;
+    border-radius: 5px;
+}
+
+.pagination li{
+    padding: 10px;
+    width:40px;
+    border:1px solid lightgrey;
+    text-decoration: none;
+
+}
+
+.pagination li:hover{
+    background-color: lightgrey;
+
+}
+
+.pagination a{
+    text-decoration: none;
+
+}
+
+/*Start Games Page*/
+
+/*Start profile page*/
+
+.profile{
+    margin-top:50px;
+    margin-bottom: 50px;
+    font-size: 1.1rem!important;
+    background-color: #dfe6e9;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.image-container{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.image-container img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.image-container table{
+    margin-left: 6px;
+}
+
+.image-container tr{
+    height: 40px;
+}
+
+.profile-info{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+}
+
+.profile-info tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.profile-info tr{
+    height: 60px;
+    width: 100%;
+}
+
+.profile-info td{
+    border-radius: 5px;
+    padding: 10px;
+}
+/*End profile page*/
+
+
+
+/*Start Game Page*/
+.game-info{
+    margin-bottom: 90px;
+}
+
+.images{
+    margin-bottom: 90px;
+}
+
+.related{
+    text-align: center;
+    margin-bottom:90px;
+}
+
+
+.related .card-header{
+    background-color: #fff;
+}
+
+/*
+.review p{
+    position: relative;
+    left:120px;
+    width:90%;
+    background-color: red;
+}*/
+
+.review-small img{
+    width:inherit;
+    border-radius: 50%;
+}
+
+.review-small{
+    margin-right: 15px;
+    width:50px;
+}
+
+.review small{
+
+    margin-right: 15px;
+
+}
+
+.reviews hr{
+    margin:30px 0;
+}
+
+.review-container p{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+/*End Game Page*/
+
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}

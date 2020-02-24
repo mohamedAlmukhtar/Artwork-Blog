@@ -1,0 +1,920 @@
+@media only screen and (max-width: 768px) {
+  .welcome {
+      top: 220px !important;
+  }
+
+  .welcome-btn{
+      font-size: 15px;
+      width: 130px !important;
+      height: 45px !important;
+  }
+
+  .topbg{
+      height: 600px !important;
+  }
+
+  .footer h5, .footer p{
+      font-size: 16px;
+  }
+
+  nav form{
+      margin-left: 5px !important;
+
+  }
+
+  nav .form-control{
+      width: 80%;
+      margin-right: 5px;
+  }
+
+
+}
+
+nav form{
+
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 1060px) {
+    #digital{
+        font-size: 50px;
+    }
+
+    #traditional{
+        font-size: 50px;
+    }
+
+    nav form{
+        margin-left: 10px !important;
+
+    }
+
+    nav .form-control{
+        width: 80%;
+        margin-right: 8px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+  .dropdown:hover .dropdown-menu{
+     display:block;
+  }
+}
+
+
+@media only screen and (min-width: 1000px){
+    .card-columns {
+        column-count: 5;
+    }
+
+    .card h6{
+        font-size: 16px;
+    }
+    .bricklayer-column-sizer {
+    /* divide by 3. */
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 999px){
+    .card-columns {
+        column-count: 3;
+    }
+    .bricklayer-column-sizer {
+    /* divide by 3. */
+    width: 33.3%;
+  }
+}
+@media only screen and (max-width: 800px){
+    .card-columns {
+        column-count: 2;
+    }
+    .bricklayer-column-sizer {
+    /* divide by 3. */
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 575px){
+    .card-columns {
+        column-count: 1;
+
+    }
+
+    .bricklayer-column-sizer {
+    /* divide by 3. */
+    width: 100%;
+  }
+}
+
+@font-face {
+  font-family: 'Amaranth';
+  src: url("amaranth.regular.ttf") format('truetype'),
+       url("Slabo27px-Regular.ttf") format('truetype'),
+        url("aleo-regular-webfont.ttf") format('truetype'),
+        url("barbaro.ttf") format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f5f6fa;
+    margin: 0;
+    padding: 0;
+    font-family: 'Amaranth',  'barbaro', 'flow brush', 'aleo', 'Slabo 27px', helvetica;
+}
+
+button{
+    background-color: #d63031 !important;
+    border: none !important;
+}
+
+button:hover{
+    background-color: #b62728 !important;
+}
+
+textarea{
+    resize: none;
+}
+
+.color-primary{
+    background-color: #d63031;
+    color: white;
+}
+
+.color-primary:hover{
+    background-color: #b62728 !important;
+}
+
+#notfound{
+    text-align: center;
+    padding: 40px;
+    color: crimson;
+}
+
+#notfound h1{
+    font-size: 300px;
+}
+
+#notfound h3{
+    color: black;
+    font-size: 40px;
+}
+
+
+.disabled{
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.dropdown-menu{
+    font-size: 20px;
+    background-color: #030b2f;
+
+}
+
+.dropdown-menu li:hover{
+    color: #d63031 !important;
+}
+
+.dropdown-menu li{
+    margin: 15px 15px 15px 5px !important;
+}
+
+
+.footer{
+    min-height: 120px;
+    padding: 50px 30px 50px 30px;
+    background-color: /*#54b3c2 #B53471 #6F1E51*/ #f2f3f7;
+    -webkit-box-shadow: 0px 0px 46px -19px rgba(0,0,0,0.53);
+    -moz-box-shadow: 0px 0px 46px -19px rgba(0,0,0,0.53);
+    box-shadow: 0px 0px 46px -19px rgba(0,0,0,0.53);
+    font-size: large;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.to-up{
+    display: inline-block;
+    position: relative;
+    top: 13px;
+    background-color: #c8c8c8 !important;
+    height: 40px;
+    width: 70px;
+    text-align: center;
+    box-shadow: 0px 8px 18px -4px rgba(0,0,0,0.65);
+    cursor: pointer;
+}
+
+.to-up:hover{
+    color: #fff !important;
+}
+
+#page-links{
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.page-item{
+    margin: 8px;
+}
+
+.float{
+    position: fixed;
+    width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 0px 10px 26px -4px rgba(0,0,0,0.65);
+    z-index: 3;
+}
+
+a, .nav-link{
+    color: /*#ff0076*/ inherit;
+    cursor: pointer;
+}
+
+.navbar li, .navbar a{
+    color: white !important;
+}
+
+.navbar-toggler{
+    color: #ff0076;
+    background-color: inherit !important;
+}
+
+a:hover, .nav-link:hover{
+    text-decoration: none;
+    color: #d63031 !important;
+}
+
+.nav-item span{
+    color:white !important;
+}
+
+.dropdown ul{
+    padding: 10px;
+    top: 40px !important;
+}
+
+.nav-color{
+    background-color: #030b2f !important;
+}
+
+.navbar{
+    background-color: /*#e9eaef #f5f6fa #030b2f*/ ;
+    font-weight:bolder;
+    /*-webkit-box-shadow: 0px 1px 12px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 12px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 12px -6px rgba(0,0,0,0.75);*/
+
+    font-size: large;
+    transition: background-color 0.2s linear;
+}
+
+.solid-nav{
+    background-color: #030b2f;
+    transition: background-color 0.2s linear;
+}
+
+
+.topbg{
+    background-color: #b2bec3;
+    background: url('../../images/Digital-Duelist-Anton-Fadeev-Wallpaper-1600x800.jpeg'), linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 850px;
+    background-attachment: fixed;
+    /*padding-bottom: 250px;*/
+    /*margin-bottom: 65px;*/
+}
+
+.welcome{
+    color: /*#0984e3 #f5f6fa*/ rgba(0, 0, 0, 0.62);
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    padding: 18px;
+    position: relative;
+    top: 185px;
+    margin: 20px 0;
+}
+
+.welcome-heading{
+    margin-bottom: 50px;
+}
+
+.welcome-btn{
+    width: 165px;
+    height: 50px;
+    background-color: crimson;
+    color: white !important;
+}
+
+.welcome-btn:hover{
+    opacity: 0.9;
+}
+
+.welcome-logged{
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+
+.welcome-logged h2{
+    font-size: 7vw;
+    color: /*#919191*/ white;
+    border: 3px solid;
+    padding: 10px;
+}
+
+.third-container{
+    margin-bottom: 30px;
+}
+
+.subscribe{
+
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.carousel .subscribe{
+    margin-top: 200px;
+}
+
+.slide-arrow{
+    height: 60px !important;
+    width: 60px !important;
+    background-color: #bcbcbc !important;
+    border-radius: 50% !important;
+    top: 35% !important;
+}
+
+.subscribe-heading{
+
+}
+
+.subscribe-inner{
+
+}
+
+.visible{
+    margin-top: 10px;
+}
+
+.grid-item {
+     width: 60%;
+ }
+.grid-item img{
+    width: inherit;
+}
+.grid-item--width2 { width: 80%; }
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  padding: 0 4px;
+}
+
+.column img, .column .btn {
+    width: 100%;
+    margin-top: 8px;
+    vertical-align: middle;
+    opacity: 0.7;
+}
+
+.column h4{}
+
+.column i{
+    padding: 15px;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+
+.carousel, .carousel-inner, .carousel-item{
+    height: 100%;
+}
+
+
+#login-container{
+    position: relative;
+
+}
+
+.login{
+    color: /*#f5f6fa*/inherit;
+    padding: 18px;
+    position: relative;
+
+    font-size: large;
+    margin: 20px 0;
+
+
+}
+
+.login h4{
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.submit{
+    margin-top: 30px;
+    font-size: inherit;
+}
+
+#subscribe{
+    width: 165px;
+}
+
+.error-container{
+    margin-top: 35px;
+}
+
+.error{
+    text-align: center;
+    margin: 5px !important;
+    /*background-color: #eb7a19;*/
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.icon{
+    margin-right: 12px;
+}
+
+.fa-artstation{
+    margin: 0 5px;
+}
+
+.transition{
+    height: 80px;
+    text-align: center;
+    padding-top: 12px;
+    background-color: inherit;
+
+}
+
+#page-links{
+    margin: 50px 0px;
+}
+
+#latest-post{
+    margin-bottom: 50px;
+}
+
+
+#latest{
+    height: 90px;
+}
+
+#illustrations{
+
+}
+
+#latest-post .card{
+    width: auto;
+}
+
+.card{
+    box-shadow: 0px 5px 12px -6px rgba(0,0,0,0.75);
+    overflow: hidden;
+}
+
+.card img{
+    height: auto !important;
+
+}
+
+img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.card-columns .card:hover{
+    top: -1px;
+    opacity: 0.9;
+}
+
+.card-tag{
+    margin-left:10px;
+    padding:4px 6px;
+    font-size:10px;
+    border-radius:25%;
+    color: white;
+}
+
+.digital-tag{
+    background-color:#7078a3b8;
+}
+
+.traditional-tag{
+    background-color:#baa663d4;
+}
+
+.heart-tag{
+    position:absolute;
+    right: -34px;
+    bottom:14px;
+    transition: right 0.5s ease-out;
+}
+
+.heart-tag i{
+    color: crimson;
+}
+
+.card:hover .heart-tag{
+    right: 20px;
+}
+
+
+/*start logged index page*/
+.radio-label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radio-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-label:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-label input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-label input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-label .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+
+.wrapper{
+
+  width:100%;
+  height:160px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-bottom: 35px;
+}
+
+.file-upload{
+
+    height:100%;
+    width:100%;
+    border-radius: ;
+    position:relative;
+
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+    border:4px solid #FFFFFF;
+    overflow:hidden;
+    background-image: linear-gradient(to bottom, #d33232f0 50%, #FFFFFF 50%);
+    background-size: 100% 200%;
+    transition: all 1s;
+    color: #FFFFFF;
+    font-size: larger;
+
+}
+
+.file-upload input{
+
+    height:inherit;
+    width:inherit;
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:0;
+    cursor:pointer;
+
+}
+
+.file-upload:hover{
+
+    background-position: 0 100%;
+    border: 1px solid black;
+    color: #d33232f0;
+
+}
+
+/*start post page*/
+.post-image-container{
+    overflow: hidden;
+}
+
+.post-image{
+    margin-top: 90px;
+
+}
+
+.post-title{
+    height: 80px;
+    margin-top: 25px;
+    padding: 25px;
+    text-align: center;
+    background-color: #fff;
+
+}
+
+.post-info{
+    font-size: 1.3em;
+    padding: 20px 50px;
+    background-color: #fff;
+
+}
+.post-caption span{
+    margin: 0 20px;
+}
+
+.heart-container{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.bloom{
+    color:crimson !important;
+}
+
+.comments{
+    font-size: 1.1em;
+    padding-top: 40px;
+    margin-bottom: 70px;
+}
+
+.comment-container{
+    padding: 25px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.comment-small img{
+    width:inherit;
+    border-radius: 50%;
+}
+
+.comment-small{
+    margin-right: 15px;
+    width:50px;
+}
+
+.comment small{
+
+    margin-right: 15px;
+
+}
+
+.comment a{
+    color: #17a2b8 !important;
+}
+
+.comment a:hover{
+    text-decoration: underline !important;
+}
+
+.comment-container{
+    margin-bottom: 50px;
+}
+
+.comment-container p{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.comment-container textarea{
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.comment-container input{
+    float: right;
+    background-color: #d63031;
+    color: white;
+    border: none;
+}
+
+.comment-container input:hover{
+    background-color: #b62728;
+}
+
+
+#image-title{
+
+}
+
+
+.container-two {
+  width: 100%;
+  height: calc(60vh - 40px);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.section-one {
+  width: 50%;
+  float: left;
+  height: 100%;
+  background: #666;
+  position: relative;
+  transform: skew(-24deg);
+  z-index: 1;
+  transition: width 0.5s;
+
+}
+
+.content-one{
+    content: "";
+    height: 100%;
+    position: absolute;
+    background: #666;
+    top: 0;
+    left: 0;
+    transform: skew(24deg);
+    z-index: -1;
+    background: url('https://wallpaper.wiki/wp-content/uploads/2017/06/Wolf-Howling-At-The-Moon-Wallpaper.jpg');
+    background-repeat: no-repeat;
+}
+
+.section-two {
+  width: 50%;
+  float: left;
+  height: 100%;
+  background: #999;
+  transform: skew(-24deg);
+  position: relative;
+  z-index: 1;
+  transition: width 0.5s;
+
+}
+
+.content-one{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #999;
+    top: 0;
+    right: 0;
+    transform: skew(24deg);
+    z-index: -1;
+    background: url('http://webneel.com/daily/sites/default/files/images/daily/03-2017/16-fantasy-digital-painting-by-sharandula.jpg');
+    background-repeat: no-repeat;
+}
+
+.content1 {
+  transform: skew(24deg);
+  color: #fff;
+  background: url('https://wallpaper.wiki/wp-content/uploads/2017/06/Wolf-Howling-At-The-Moon-Wallpaper.jpg');
+  background-size: cover;
+  text-align: center;
+}
+
+.parent {
+  position: relative;
+  width: 100%;
+  margin-bottom: 300px;
+}
+.one, .two {
+  position: absolute;
+  height: 300px;
+  width: 66.5%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: width 0.8s;
+  font-size: 6em;
+  color: lightgrey;
+}
+.one {
+  left: 0;
+  top: 0;
+  background-image: url(../../images/tumblr_o4glbznzpn1uc27fxo1_1280.jpg);
+  -webkit-clip-path: polygon(0 0, 100% 0%, 50% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 50% 100%, 0% 100%);
+  z-index: 1;
+}
+.two {
+  right: 0;
+  top: 0;
+  background-image: url(../../images/TraditionalArtwork.jpg);
+  -webkit-clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
+  z-index: 1;
+}
+
+#digital{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    /* background-color: aqua; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.21));
+    transition: top 0.8s ease-in-out, font-size 0.8s ease-in-out;
+}
+
+
+#traditional{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    /* background-color: aqua; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3));
+    transition: bottom 0.8s ease-in-out, font-size 0.8s ease-in-out;
+}
+
+#traditional span{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+
+.three{
+    margin-bottom: 250px;
+    height: 700px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #17a2b8;
+    width: 95%;
+    -webkit-clip-path: polygon(0 0, 50% 0%, 70% 100%, 0% 100%);
+    clip-path: polygon(0 0, 50% 0%, 70% 100%, 0% 100%);
+}
+
+.four{
+    height: 650px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30%;
+    background-color: lightgrey;
+    -webkit-clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
+}
