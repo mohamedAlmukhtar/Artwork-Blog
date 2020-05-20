@@ -143,7 +143,7 @@
         <div class="row">
 
             <div class="col-lg-6">
-                <div class="card-decks" data-aos="fade-right" id="latest-post">
+                <div class="card-decks" id="latest-post">
                     <a href="post.php?post=<?php echo $rows['ID'] ?>">
                     <div class="card">
                         <div class="card-header">
@@ -163,7 +163,7 @@
 
             <div class="col-lg-6 third-section2">
 
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-aos="fade-left">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
                   <div class="carousel-inner" style="color:black;">
                       <?php if(!isset($_SESSION['Username'])){ ?>
